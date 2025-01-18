@@ -1,4 +1,4 @@
-body {
+.bg {
     background-color: #0f254c;
     background-image: linear-gradient(90deg, black 1px, transparent 1px);
     background-size: 50px 50px;
@@ -19,4 +19,17 @@ img {
 .popover-header {
     color: #080808;
     font-weight: bold;
+}
+
+#carouselPhoto {
+    margin-top: 92px;
+}
+
+body, #infielders, #outfielders, #pitcherandcatcher {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+nav {
+    height: 80px;
 }
